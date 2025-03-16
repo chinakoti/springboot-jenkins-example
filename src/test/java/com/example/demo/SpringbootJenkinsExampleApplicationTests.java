@@ -13,7 +13,15 @@ class SpringbootJenkinsExampleApplicationTests {
 
 	@Test
 	void contextLoads() {
+		logger.info("testing contextLoads....");
 		assertEquals("test","test");
+	}
+	
+	@Test
+	void test_MyMethod() {
+		logger.info("test_MyMethod ....");
+		assertEquals("test","test");
+
 	}
 
 }

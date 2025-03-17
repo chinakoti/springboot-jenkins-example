@@ -20,7 +20,7 @@ class SpringbootJenkinsExampleApplicationTests {
 	@Test
 	void test_MyMethod() {
 		logger.info("test_MyMethod ....");
-		assertEquals("test","test");
+		assertEquals("testaa","test");
 
 	}
 

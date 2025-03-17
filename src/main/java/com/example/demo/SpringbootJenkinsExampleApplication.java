@@ -22,7 +22,6 @@ public class SpringbootJenkinsExampleApplication {
 	public static void main(String[] args) {
 		logger.info("Spring boot Application executed");
 		SpringApplication.run(SpringbootJenkinsExampleApplication.class, args);
-		logger.info("After Run method");
 
 	}
 
